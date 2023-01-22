@@ -1,1 +1,1 @@
-Based on the extracted RC parasitics and Power reports, Dataset is formed with paraemeters such as Net, Total Net Load, Static Prob., Toggle rate, Switching Power, Class, RC for all the 10 ISCAS Banchmark circuits
+Based on the extracted RC parasitics and Power reports, Dataset is formed with paraemeters such as Net, Total Net Load, Static Prob., Toggle rate, Switching Power, Class, RC for all the 10 ISCAS Banchmark circuits. Attached both the excel and CVS file formats.
