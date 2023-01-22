@@ -1,1 +1,1 @@
-Created a Time based Hardware Trojan and inserted it in the mentioned 10 ISCAS benchmark circuits
+Created a Time based Hardware Trojan and inserted it in the mentioned 10 ISCAS benchmark circuits, The image trojan_insertion_table.JPG contains the details of the nets in which the Trojan is connected in the each circuit
