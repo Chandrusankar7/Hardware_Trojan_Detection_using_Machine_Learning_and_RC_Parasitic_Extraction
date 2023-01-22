@@ -1,4 +1,4 @@
-wire AO, QA, QB, QC, QD, and1, reset;
+wire AO, QA, QB, QC, QD, and1, reset; //Hardware Trojan code to be inserted inside the main module
 reg CO;
 and AND1(AO, I1, I2);
 xor EXOR1 (I3, op, O1);
@@ -17,3 +17,15 @@ always @ (I1 or I2 or I3)
       else
         CO=0;
     end
+
+module DFF (clk, rst, D, Q); //D flip Flop
+  input clk, rst, D;
+  output reg Q;
+  always @ (posedge clk or posedge rst)
+    begin
+      if (rst)
+        Q<=1'b0;
+      else
+        Q<=D;
+    end
+endmodule
