@@ -1,0 +1,4950 @@
+*SPEF "IEEE 1481-1999"
+*DESIGN "s382"
+*DATE "Sun Oct 16 23:49:09 2022"
+*VENDOR "SYNOPSYS INC"
+*PROGRAM "Synopsys Design Compiler"
+*VERSION "S-2021.06-SP5-3"
+*DESIGN_FLOW "SYNTHESIS"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1.0 NS
+*C_UNIT 0.0010 PF
+*R_UNIT 1000.0 KOHM
+*L_UNIT 1.0 HENRY
+
+*PORTS
+
+CK I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+CLR I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+FM I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+GRN1 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+GRN2 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+RED1 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+RED2 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+TEST I *L 0.000e+00 *S 0.000e+00 0.000e+00 
+YLW1 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+YLW2 O *L 0.000e+00 *S 0.000e+00 0.000e+00 
+
+*R_NET N0 2.433e-01
+*DRIVER NAND2_0:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_29:A 4.575e-03
+*END
+
+*R_NET N1 2.433e-01
+*DRIVER NAND4_0:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_30:A 4.575e-03
+*END
+
+*R_NET N2 2.433e-01
+*DRIVER NAND2_1:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_31:A 4.575e-03
+*END
+
+*R_NET N3 2.433e-01
+*DRIVER NAND2_2:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_32:A 4.575e-03
+*END
+
+*R_NET N4 2.433e-01
+*DRIVER NAND2_3:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_33:A 4.575e-03
+*END
+
+*R_NET N5 2.433e-01
+*DRIVER NAND2_4:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_34:A 4.575e-03
+*END
+
+*R_NET N6 2.433e-01
+*DRIVER NAND2_5:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_35:A 4.575e-03
+*END
+
+*R_NET N7 2.433e-01
+*DRIVER NAND4_1:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_36:A 4.575e-03
+*END
+
+*R_NET N8 2.433e-01
+*DRIVER NAND4_2:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_37:A 4.575e-03
+*END
+
+*R_NET N9 2.433e-01
+*DRIVER NAND3_0:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_38:A 4.575e-03
+*END
+
+*R_NET N10 2.433e-01
+*DRIVER NAND2_6:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_39:A 4.575e-03
+*END
+
+*R_NET N11 2.433e-01
+*DRIVER NAND2_7:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_40:A 4.575e-03
+*END
+
+*R_NET N12 2.433e-01
+*DRIVER NAND2_8:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_41:A 4.575e-03
+*END
+
+*R_NET N13 2.433e-01
+*DRIVER NAND2_9:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_42:A 4.575e-03
+*END
+
+*R_NET N14 2.433e-01
+*DRIVER NAND3_1:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_43:A 4.575e-03
+*END
+
+*R_NET N15 2.433e-01
+*DRIVER NAND2_10:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_44:A 4.575e-03
+*END
+
+*R_NET N16 2.433e-01
+*DRIVER NAND2_11:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_45:A 4.575e-03
+*END
+
+*R_NET N17 2.433e-01
+*DRIVER NAND2_12:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_46:A 4.575e-03
+*END
+
+*R_NET N18 2.433e-01
+*DRIVER NAND2_13:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_47:A 4.575e-03
+*END
+
+*R_NET N19 2.433e-01
+*DRIVER NAND2_14:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_48:A 4.575e-03
+*END
+
+*R_NET N20 2.433e-01
+*DRIVER NAND2_15:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_49:A 4.575e-03
+*END
+
+*R_NET N21 2.433e-01
+*DRIVER NAND2_16:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_50:A 4.575e-03
+*END
+
+*R_NET N22 2.433e-01
+*DRIVER NAND2_17:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_51:A 4.575e-03
+*END
+
+*R_NET N23 2.433e-01
+*DRIVER NAND2_18:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_52:A 4.575e-03
+*END
+
+*R_NET N24 2.433e-01
+*DRIVER NAND2_19:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_53:A 4.575e-03
+*END
+
+*R_NET N25 2.433e-01
+*DRIVER NAND2_20:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_54:A 4.575e-03
+*END
+
+*R_NET N26 2.433e-01
+*DRIVER NAND2_21:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_55:A 4.575e-03
+*END
+
+*R_NET N27 2.433e-01
+*DRIVER NAND2_22:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_56:A 4.575e-03
+*END
+
+*R_NET N28 2.433e-01
+*DRIVER NAND2_23:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_57:A 4.575e-03
+*END
+
+*R_NET N29 2.433e-01
+*DRIVER NAND2_24:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_58:A 4.575e-03
+*END
+
+*R_NET N30 2.433e-01
+*DRIVER I_59:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_0:A 4.575e-03
+*END
+
+*R_NET N31 2.433e-01
+*DRIVER I_60:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_0:B 4.575e-03
+*END
+
+*R_NET N32 2.433e-01
+*DRIVER I_61:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_0:C 4.575e-03
+*END
+
+*R_NET N33 2.433e-01
+*DRIVER I_62:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_1:A 4.575e-03
+*END
+
+*R_NET N34 2.433e-01
+*DRIVER I_63:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_1:B 4.575e-03
+*END
+
+*R_NET N35 2.433e-01
+*DRIVER I_64:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_1:C 4.575e-03
+*END
+
+*R_NET N36 2.433e-01
+*DRIVER I_65:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_2:A 4.575e-03
+*END
+
+*R_NET N37 2.433e-01
+*DRIVER I_66:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_2:B 4.575e-03
+*END
+
+*R_NET N38 2.433e-01
+*DRIVER I_67:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_2:C 4.575e-03
+*END
+
+*R_NET N39 2.433e-01
+*DRIVER I_68:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_0:A 4.575e-03
+*END
+
+*R_NET N40 2.433e-01
+*DRIVER I_69:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_0:B 4.575e-03
+*END
+
+*R_NET N41 2.433e-01
+*DRIVER I_70:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_3:A 4.575e-03
+*END
+
+*R_NET N42 2.433e-01
+*DRIVER I_71:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_3:B 4.575e-03
+*END
+
+*R_NET N43 2.433e-01
+*DRIVER I_72:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_3:C 4.575e-03
+*END
+
+*R_NET N44 2.433e-01
+*DRIVER I_73:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_1:A 4.575e-03
+*END
+
+*R_NET N45 2.433e-01
+*DRIVER I_74:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_1:B 4.575e-03
+*END
+
+*R_NET N46 2.433e-01
+*DRIVER I_75:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_2:A 4.575e-03
+*END
+
+*R_NET N47 2.433e-01
+*DRIVER I_76:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_2:B 4.575e-03
+*END
+
+*R_NET N48 2.433e-01
+*DRIVER I_77:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_0:A 4.575e-03
+*END
+
+*R_NET N49 2.433e-01
+*DRIVER I_78:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_0:B 4.575e-03
+*END
+
+*R_NET N50 2.433e-01
+*DRIVER I_79:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_0:C 4.575e-03
+*END
+
+*R_NET N51 2.433e-01
+*DRIVER I_80:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_0:D 4.575e-03
+*END
+
+*R_NET N52 2.433e-01
+*DRIVER I_81:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_3:A 4.575e-03
+*END
+
+*R_NET N53 2.433e-01
+*DRIVER I_82:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_3:B 4.575e-03
+*END
+
+*R_NET N54 2.433e-01
+*DRIVER I_83:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_4:A 4.575e-03
+*END
+
+*R_NET N55 2.433e-01
+*DRIVER I_84:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_4:B 4.575e-03
+*END
+
+*R_NET N56 2.433e-01
+*DRIVER I_85:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_4:C 4.575e-03
+*END
+
+*R_NET N57 2.433e-01
+*DRIVER I_86:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_1:A 4.575e-03
+*END
+
+*R_NET N58 2.433e-01
+*DRIVER I_87:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_1:B 4.575e-03
+*END
+
+*R_NET N59 2.433e-01
+*DRIVER I_88:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_1:C 4.575e-03
+*END
+
+*R_NET N60 2.433e-01
+*DRIVER I_89:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_1:D 4.575e-03
+*END
+
+*R_NET N61 2.433e-01
+*DRIVER I_90:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_5:A 4.575e-03
+*END
+
+*R_NET N62 2.433e-01
+*DRIVER I_91:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_5:B 4.575e-03
+*END
+
+*R_NET N63 2.433e-01
+*DRIVER I_92:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_5:C 4.575e-03
+*END
+
+*R_NET N64 2.433e-01
+*DRIVER I_93:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_6:A 4.575e-03
+*END
+
+*R_NET N65 2.433e-01
+*DRIVER I_94:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_6:B 4.575e-03
+*END
+
+*R_NET N66 2.433e-01
+*DRIVER I_95:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_6:C 4.575e-03
+*END
+
+*R_NET N67 2.433e-01
+*DRIVER I_96:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_4:A 4.575e-03
+*END
+
+*R_NET N68 2.433e-01
+*DRIVER I_97:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_4:B 4.575e-03
+*END
+
+*R_NET N69 2.433e-01
+*DRIVER I_98:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_2:A 4.575e-03
+*END
+
+*R_NET N70 2.433e-01
+*DRIVER I_99:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_2:B 4.575e-03
+*END
+
+*R_NET N71 2.433e-01
+*DRIVER I_100:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_2:C 4.575e-03
+*END
+
+*R_NET N72 2.433e-01
+*DRIVER I_101:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_2:D 4.575e-03
+*END
+
+*R_NET N73 2.433e-01
+*DRIVER I_102:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_5:A 4.575e-03
+*END
+
+*R_NET N74 2.433e-01
+*DRIVER I_103:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_5:B 4.575e-03
+*END
+
+*R_NET N75 2.433e-01
+*DRIVER I_104:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_6:A 4.575e-03
+*END
+
+*R_NET N76 2.433e-01
+*DRIVER I_105:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_6:B 4.575e-03
+*END
+
+*R_NET N77 2.433e-01
+*DRIVER I_106:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_7:A 4.575e-03
+*END
+
+*R_NET N78 2.433e-01
+*DRIVER I_107:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_7:B 4.575e-03
+*END
+
+*R_NET N79 2.433e-01
+*DRIVER I_108:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_7:C 4.575e-03
+*END
+
+*R_NET N80 2.433e-01
+*DRIVER I_109:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_8:A 4.575e-03
+*END
+
+*R_NET N81 2.433e-01
+*DRIVER I_110:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_8:B 4.575e-03
+*END
+
+*R_NET N82 2.433e-01
+*DRIVER I_111:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_8:C 4.575e-03
+*END
+
+*R_NET N83 2.433e-01
+*DRIVER I_112:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_9:A 4.575e-03
+*END
+
+*R_NET N84 2.433e-01
+*DRIVER I_113:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_9:B 4.575e-03
+*END
+
+*R_NET N85 2.433e-01
+*DRIVER I_114:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_9:C 4.575e-03
+*END
+
+*R_NET N86 2.433e-01
+*DRIVER I_115:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_3:A 4.575e-03
+*END
+
+*R_NET N87 2.433e-01
+*DRIVER I_116:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_3:B 4.575e-03
+*END
+
+*R_NET N88 2.433e-01
+*DRIVER I_117:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_3:C 4.575e-03
+*END
+
+*R_NET N89 2.433e-01
+*DRIVER I_118:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR4_3:D 4.575e-03
+*END
+
+*R_NET N90 2.433e-01
+*DRIVER I_119:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_10:A 4.575e-03
+*END
+
+*R_NET N91 2.433e-01
+*DRIVER I_120:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_10:B 4.575e-03
+*END
+
+*R_NET N92 2.433e-01
+*DRIVER I_121:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_10:C 4.575e-03
+*END
+
+*R_NET N93 2.433e-01
+*DRIVER I_122:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_11:A 4.575e-03
+*END
+
+*R_NET N94 2.433e-01
+*DRIVER I_123:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_11:B 4.575e-03
+*END
+
+*R_NET N95 2.433e-01
+*DRIVER I_124:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_11:C 4.575e-03
+*END
+
+*R_NET N96 2.433e-01
+*DRIVER I_125:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_7:A 4.575e-03
+*END
+
+*R_NET N97 2.433e-01
+*DRIVER I_126:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_7:B 4.575e-03
+*END
+
+*R_NET N98 2.433e-01
+*DRIVER I_127:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_12:A 4.575e-03
+*END
+
+*R_NET N99 2.433e-01
+*DRIVER I_128:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_12:B 4.575e-03
+*END
+
+*R_NET N100 2.433e-01
+*DRIVER I_129:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_12:C 4.575e-03
+*END
+
+*R_NET N101 2.433e-01
+*DRIVER I_130:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_13:A 4.575e-03
+*END
+
+*R_NET N102 2.433e-01
+*DRIVER I_131:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_13:B 4.575e-03
+*END
+
+*R_NET N103 2.433e-01
+*DRIVER I_132:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_13:C 4.575e-03
+*END
+
+*R_NET N104 2.433e-01
+*DRIVER I_133:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_14:A 4.575e-03
+*END
+
+*R_NET N105 2.433e-01
+*DRIVER I_134:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_14:B 4.575e-03
+*END
+
+*R_NET N106 2.433e-01
+*DRIVER I_135:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_14:C 4.575e-03
+*END
+
+*R_NET N107 2.433e-01
+*DRIVER I_136:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_15:A 4.575e-03
+*END
+
+*R_NET N108 2.433e-01
+*DRIVER I_137:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_15:B 4.575e-03
+*END
+
+*R_NET N109 2.433e-01
+*DRIVER I_138:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_15:C 4.575e-03
+*END
+
+*R_NET N110 2.433e-01
+*DRIVER I_139:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_8:A 4.575e-03
+*END
+
+*R_NET N111 2.433e-01
+*DRIVER I_140:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_8:B 4.575e-03
+*END
+
+*R_NET N112 2.433e-01
+*DRIVER I_141:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_9:A 4.575e-03
+*END
+
+*R_NET N113 2.433e-01
+*DRIVER I_142:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR2_9:B 4.575e-03
+*END
+
+*R_NET N114 2.433e-01
+*DRIVER I_143:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_16:A 4.575e-03
+*END
+
+*R_NET N115 2.433e-01
+*DRIVER I_144:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_16:B 4.575e-03
+*END
+
+*R_NET N116 2.433e-01
+*DRIVER I_145:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_16:C 4.575e-03
+*END
+
+*R_NET N117 2.433e-01
+*DRIVER I_146:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_17:A 4.575e-03
+*END
+
+*R_NET N118 2.433e-01
+*DRIVER I_147:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_17:B 4.575e-03
+*END
+
+*R_NET N119 2.433e-01
+*DRIVER I_148:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_17:C 4.575e-03
+*END
+
+*R_NET N120 2.433e-01
+*DRIVER I_149:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_18:A 4.575e-03
+*END
+
+*R_NET N121 2.433e-01
+*DRIVER I_150:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_18:B 4.575e-03
+*END
+
+*R_NET N122 2.433e-01
+*DRIVER I_151:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_18:C 4.575e-03
+*END
+
+*R_NET N123 2.433e-01
+*DRIVER I_152:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_19:A 4.575e-03
+*END
+
+*R_NET N124 2.433e-01
+*DRIVER I_153:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_19:B 4.575e-03
+*END
+
+*R_NET N125 2.433e-01
+*DRIVER I_154:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NOR3_19:C 4.575e-03
+*END
+
+*R_NET CK 1.166e+01
+*DRIVER DFF_20/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_19/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_18/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_17/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_16/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_15/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_14/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_13/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_12/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_11/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_10/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_9/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_8/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_7/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_6/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_5/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_4/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_3/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_2/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_1/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER CK
+*CELL NULL
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*RC DFF_0/Q_reg:clocked_on 1.051e+01
+*DRIVER DFF_0/Q_reg:clocked_on
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 5.829e+00 9.014e-01 5.829e+00 
+*LOADS
+*RC DFF_20/Q_reg:clocked_on 1.051e+01
+*RC DFF_19/Q_reg:clocked_on 1.051e+01
+*RC DFF_18/Q_reg:clocked_on 1.051e+01
+*RC DFF_17/Q_reg:clocked_on 1.051e+01
+*RC DFF_16/Q_reg:clocked_on 1.051e+01
+*RC DFF_15/Q_reg:clocked_on 1.051e+01
+*RC DFF_14/Q_reg:clocked_on 1.051e+01
+*RC DFF_13/Q_reg:clocked_on 1.051e+01
+*RC DFF_12/Q_reg:clocked_on 1.051e+01
+*RC DFF_11/Q_reg:clocked_on 1.051e+01
+*RC DFF_10/Q_reg:clocked_on 1.051e+01
+*RC DFF_9/Q_reg:clocked_on 1.051e+01
+*RC DFF_8/Q_reg:clocked_on 1.051e+01
+*RC DFF_7/Q_reg:clocked_on 1.051e+01
+*RC DFF_6/Q_reg:clocked_on 1.051e+01
+*RC DFF_5/Q_reg:clocked_on 1.051e+01
+*RC DFF_4/Q_reg:clocked_on 1.051e+01
+*RC DFF_3/Q_reg:clocked_on 1.051e+01
+*RC DFF_2/Q_reg:clocked_on 1.051e+01
+*RC DFF_1/Q_reg:clocked_on 1.051e+01
+*END
+
+*R_NET CLR 9.876e+00
+*DRIVER CLR
+*CELL NULL
+*C2_R1_C1 4.938e+00 7.637e-01 4.938e+00 
+*LOADS
+*RC I_152:A 7.543e+00
+*RC I_149:A 7.543e+00
+*RC I_146:A 7.543e+00
+*RC I_143:A 7.543e+00
+*RC I_136:A 7.543e+00
+*RC I_133:A 7.543e+00
+*RC I_130:A 7.543e+00
+*RC I_127:A 7.543e+00
+*RC I_112:A 7.543e+00
+*RC I_109:A 7.543e+00
+*RC I_106:A 7.543e+00
+*RC I_83:A 7.543e+00
+*RC I_77:A 7.543e+00
+*RC I_75:A 7.543e+00
+*RC OR4_2:D 7.543e+00
+*RC OR3_2:C 7.543e+00
+*RC OR4_1:D 7.543e+00
+*RC OR2_2:B 7.543e+00
+*RC I_16:A 7.543e+00
+*END
+
+*R_NET FM 5.436e-01
+*DRIVER FM
+*CELL NULL
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC OR2_1:A 2.285e-02
+*RC I_15:A 2.285e-02
+*END
+
+*R_NET RED2 2.433e-01
+*DRIVER I_18:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC RED2 4.575e-03
+*END
+
+*R_NET TEST 5.436e-01
+*DRIVER TEST
+*CELL NULL
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC OR2_3:A 2.285e-02
+*RC I_17:A 2.285e-02
+*END
+
+*R_NET YLW1 2.433e-01
+*DRIVER I_19:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC YLW1 4.575e-03
+*END
+
+*R_NET TESTL 8.629e-01
+*DRIVER DFF_0/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 4.314e-01 6.672e-02 4.314e-01 
+*LOADS
+*RC I_82:A 5.757e-02
+*RC OR2_3:B 5.757e-02
+*RC I_0:A 5.757e-02
+*END
+
+*R_NET TESTLVIINLATCHVCDAD 2.433e-01
+*DRIVER AND2_6:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_0/Q_reg:next_state 4.575e-03
+*DRIVER DFF_0/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET FML 8.629e-01
+*DRIVER DFF_1/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 4.314e-01 6.672e-02 4.314e-01 
+*LOADS
+*RC OR4_3:B 5.757e-02
+*RC OR2_1:B 5.757e-02
+*RC I_1:A 5.757e-02
+*END
+
+*R_NET FMLVIINLATCHVCDAD 2.433e-01
+*DRIVER AND2_4:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_1/Q_reg:next_state 4.575e-03
+*DRIVER DFF_1/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCH_Y2L 2.433e-01
+*DRIVER DFF_2/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC YLW2 4.575e-03
+*END
+
+*R_NET TCOMB_YA2 2.433e-01
+*DRIVER NOR2_5:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_2/Q_reg:next_state 4.575e-03
+*DRIVER DFF_2/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCHVUC_6 2.433e-01
+*DRIVER DFF_3/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_19:A 4.575e-03
+*END
+
+*R_NET Y1C 2.433e-01
+*DRIVER NOR2_8:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_3/Q_reg:next_state 4.575e-03
+*DRIVER DFF_3/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCHVUC_5 2.433e-01
+*DRIVER DFF_4/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_18:A 4.575e-03
+*END
+
+*R_NET R2C 2.433e-01
+*DRIVER NOR2_9:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_4/Q_reg:next_state 4.575e-03
+*DRIVER DFF_4/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCH_R1L 2.433e-01
+*DRIVER DFF_5/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC RED1 4.575e-03
+*END
+
+*R_NET TCOMB_RA1 2.433e-01
+*DRIVER I_38:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_5/Q_reg:next_state 4.575e-03
+*DRIVER DFF_5/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCH_G2L 2.433e-01
+*DRIVER DFF_6/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC GRN2 4.575e-03
+*END
+
+*R_NET TCOMB_GA2 2.433e-01
+*DRIVER NOR4_2:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_6/Q_reg:next_state 4.575e-03
+*DRIVER DFF_6/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCH_G1L 2.433e-01
+*DRIVER DFF_7/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC GRN1 4.575e-03
+*END
+
+*R_NET TCOMB_GA1 2.433e-01
+*DRIVER NOR2_6:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_7/Q_reg:next_state 4.575e-03
+*DRIVER DFF_7/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET OLATCH_FEL 1.565e+00
+*DRIVER DFF_8/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC OR4_0:D 1.893e-01
+*RC OR3_0:C 1.893e-01
+*RC AND2_1:A 1.893e-01
+*RC AND2_0:B 1.893e-01
+*RC I_14:A 1.893e-01
+*END
+
+*R_NET TCOMB_FE_BF 2.433e-01
+*DRIVER I_27:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_8/Q_reg:next_state 4.575e-03
+*DRIVER DFF_8/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET C3_Q3 1.951e+00
+*DRIVER DFF_9/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC OR2_13:B 2.943e-01
+*RC OR4_3:C 2.943e-01
+*RC OR4_2:B 2.943e-01
+*RC OR3_0:B 2.943e-01
+*RC AND3_1:B 2.943e-01
+*RC I_2:A 2.943e-01
+*END
+
+*R_NET C3_Q3VD 2.433e-01
+*DRIVER NOR3_16:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_9/Q_reg:next_state 4.575e-03
+*DRIVER DFF_9/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET C3_Q2 3.268e+00
+*DRIVER DFF_10/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.634e+00 2.527e-01 1.634e+00 
+*LOADS
+*RC I_59:A 8.257e-01
+*RC NAND2_19:B 8.257e-01
+*RC NAND4_2:B 8.257e-01
+*RC OR2_14:B 8.257e-01
+*RC OR3_2:A 8.257e-01
+*RC OR4_0:C 8.257e-01
+*RC OR3_0:A 8.257e-01
+*RC AND2_2:A 8.257e-01
+*RC I_3:A 8.257e-01
+*END
+
+*R_NET C3_Q2VD 2.433e-01
+*DRIVER NOR3_17:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_10/Q_reg:next_state 4.575e-03
+*DRIVER DFF_10/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET C3_Q1 3.765e+00
+*DRIVER DFF_11/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.883e+00 2.912e-01 1.883e+00 
+*LOADS
+*RC I_80:A 1.096e+00
+*RC I_60:A 1.096e+00
+*RC NAND2_20:B 1.096e+00
+*RC NAND4_1:D 1.096e+00
+*RC OR2_15:B 1.096e+00
+*RC OR4_1:B 1.096e+00
+*RC OR4_0:B 1.096e+00
+*RC OR3_1:B 1.096e+00
+*RC AND3_0:B 1.096e+00
+*RC I_4:A 1.096e+00
+*END
+
+*R_NET C3_Q1VD 2.433e-01
+*DRIVER NOR3_18:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_11/Q_reg:next_state 4.575e-03
+*DRIVER DFF_11/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET C3_Q0 3.268e+00
+*DRIVER DFF_12/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.634e+00 2.527e-01 1.634e+00 
+*LOADS
+*RC I_61:A 8.257e-01
+*RC NAND2_21:B 8.257e-01
+*RC NAND4_0:D 8.257e-01
+*RC NAND2_0:B 8.257e-01
+*RC OR2_16:B 8.257e-01
+*RC OR4_1:A 8.257e-01
+*RC OR3_1:A 8.257e-01
+*RC AND3_0:A 8.257e-01
+*RC I_5:A 8.257e-01
+*END
+
+*R_NET C3_Q0VD 2.433e-01
+*DRIVER NOR3_19:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_12/Q_reg:next_state 4.575e-03
+*DRIVER DFF_12/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_16 5.436e-01
+*DRIVER DFF_13/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC OR2_9:B 2.285e-02
+*RC I_6:A 2.285e-02
+*END
+
+*R_NET UC_16VD 2.433e-01
+*DRIVER NOR3_12:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_13/Q_reg:next_state 4.575e-03
+*DRIVER DFF_13/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_17 1.203e+00
+*DRIVER DFF_14/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_65:A 1.119e-01
+*RC NAND2_12:B 1.119e-01
+*RC OR2_10:B 1.119e-01
+*RC I_7:A 1.119e-01
+*END
+
+*R_NET UC_17VD 2.433e-01
+*DRIVER NOR3_13:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_14/Q_reg:next_state 4.575e-03
+*DRIVER DFF_14/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_18 1.203e+00
+*DRIVER DFF_15/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_66:A 1.119e-01
+*RC NAND2_13:B 1.119e-01
+*RC OR2_11:B 1.119e-01
+*RC I_8:A 1.119e-01
+*END
+
+*R_NET UC_18VD 2.433e-01
+*DRIVER NOR3_14:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_15/Q_reg:next_state 4.575e-03
+*DRIVER DFF_15/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_19 1.203e+00
+*DRIVER DFF_16/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_67:A 1.119e-01
+*RC NAND2_14:B 1.119e-01
+*RC OR2_12:B 1.119e-01
+*RC I_9:A 1.119e-01
+*END
+
+*R_NET UC_19VD 2.433e-01
+*DRIVER NOR3_15:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_16/Q_reg:next_state 4.575e-03
+*DRIVER DFF_16/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_8 5.436e-01
+*DRIVER DFF_17/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC OR2_4:B 2.285e-02
+*RC I_10:A 2.285e-02
+*END
+
+*R_NET UC_8VD 2.433e-01
+*DRIVER NOR3_7:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_17/Q_reg:next_state 4.575e-03
+*DRIVER DFF_17/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_9 1.203e+00
+*DRIVER DFF_18/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_62:A 1.119e-01
+*RC NAND2_1:B 1.119e-01
+*RC OR2_5:B 1.119e-01
+*RC I_11:A 1.119e-01
+*END
+
+*R_NET UC_9VD 2.433e-01
+*DRIVER NOR3_8:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_18/Q_reg:next_state 4.575e-03
+*DRIVER DFF_18/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_10 1.203e+00
+*DRIVER DFF_19/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_63:A 1.119e-01
+*RC NAND2_2:B 1.119e-01
+*RC OR2_6:B 1.119e-01
+*RC I_12:A 1.119e-01
+*END
+
+*R_NET UC_10VD 2.433e-01
+*DRIVER NOR3_9:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_19/Q_reg:next_state 4.575e-03
+*DRIVER DFF_19/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET UC_11 1.565e+00
+*DRIVER DFF_20/Q_reg:Q
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC NAND2_2:A 1.893e-01
+*RC OR2_6:A 1.893e-01
+*RC I_84:A 1.893e-01
+*RC I_64:A 1.893e-01
+*RC I_13:A 1.893e-01
+*END
+
+*R_NET UC_11VD 2.433e-01
+*DRIVER NOR3_4:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC DFF_20/Q_reg:next_state 4.575e-03
+*DRIVER DFF_20/Q_reg:next_state
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*END
+
+*R_NET TESTLVIINLATCHN 2.433e-01
+*DRIVER I_0:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_8:B 4.575e-03
+*END
+
+*R_NET FMLVIINLATCHN 1.951e+00
+*DRIVER I_1:Z
+*CELL GTECH_NOT
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC I_78:A 2.943e-01
+*RC NAND4_0:A 2.943e-01
+*RC OR4_2:C 2.943e-01
+*RC OR2_0:B 2.943e-01
+*RC OR3_1:C 2.943e-01
+*RC OR2_7:B 2.943e-01
+*END
+
+*R_NET UC_23 1.565e+00
+*DRIVER I_2:Z
+*CELL GTECH_NOT
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC NAND4_0:B 1.893e-01
+*RC OR3_2:B 1.893e-01
+*RC OR4_1:C 1.893e-01
+*RC OR2_0:A 1.893e-01
+*RC I_124:A 1.893e-01
+*END
+
+*R_NET UC_24 1.951e+00
+*DRIVER I_3:Z
+*CELL GTECH_NOT
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC I_79:A 2.943e-01
+*RC NAND4_1:C 2.943e-01
+*RC OR4_3:D 2.943e-01
+*RC OR4_2:A 2.943e-01
+*RC OR2_2:A 2.943e-01
+*RC I_116:A 2.943e-01
+*END
+
+*R_NET UC_25 1.565e+00
+*DRIVER I_4:Z
+*CELL GTECH_NOT
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC NAND3_1:B 1.893e-01
+*RC NAND4_0:C 1.893e-01
+*RC NAND2_0:A 1.893e-01
+*RC I_120:A 1.893e-01
+*RC I_117:A 1.893e-01
+*END
+
+*R_NET UC_26 2.801e+00
+*DRIVER I_5:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.400e+00 2.166e-01 1.400e+00 
+*LOADS
+*RC I_103:A 6.065e-01
+*RC NAND3_1:C 6.065e-01
+*RC NAND2_5:B 6.065e-01
+*RC OR4_0:A 6.065e-01
+*RC AND3_1:A 6.065e-01
+*RC I_126:A 6.065e-01
+*RC I_121:A 6.065e-01
+*RC I_118:A 6.065e-01
+*END
+
+*R_NET UC_20 2.433e-01
+*DRIVER I_6:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_95:A 4.575e-03
+*END
+
+*R_NET C2_QN2 8.629e-01
+*DRIVER I_7:Z
+*CELL GTECH_NOT
+*C2_R1_C1 4.314e-01 6.672e-02 4.314e-01 
+*LOADS
+*RC I_87:A 5.757e-02
+*RC AND2_5:B 5.757e-02
+*RC AND2_3:B 5.757e-02
+*END
+
+*R_NET UC_21 5.436e-01
+*DRIVER I_8:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC I_91:A 2.285e-02
+*RC I_88:A 2.285e-02
+*END
+
+*R_NET UC_22 8.629e-01
+*DRIVER I_9:Z
+*CELL GTECH_NOT
+*C2_R1_C1 4.314e-01 6.672e-02 4.314e-01 
+*LOADS
+*RC I_97:A 5.757e-02
+*RC I_92:A 5.757e-02
+*RC I_89:A 5.757e-02
+*END
+
+*R_NET UC_12 2.433e-01
+*DRIVER I_10:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_69:A 4.575e-03
+*END
+
+*R_NET UC_13 2.433e-01
+*DRIVER I_11:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_70:A 4.575e-03
+*END
+
+*R_NET UC_14 5.436e-01
+*DRIVER I_12:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC I_73:A 2.285e-02
+*RC I_71:A 2.285e-02
+*END
+
+*R_NET UC_15 5.436e-01
+*DRIVER I_13:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC I_74:A 2.285e-02
+*RC I_72:A 2.285e-02
+*END
+
+*R_NET TCOMBVNFEL 5.436e-01
+*DRIVER I_14:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC I_76:A 2.285e-02
+*RC NAND4_1:B 2.285e-02
+*END
+
+*R_NET FMLVIINMUXVIIR1 2.433e-01
+*DRIVER I_15:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_7:A 4.575e-03
+*END
+
+*R_NET TESTLVIINLATCHVCDN 3.268e+00
+*DRIVER I_16:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.634e+00 2.527e-01 1.634e+00 
+*LOADS
+*RC NAND3_0:A 8.257e-01
+*RC NAND4_2:A 8.257e-01
+*RC NAND4_1:A 8.257e-01
+*RC AND3_1:C 8.257e-01
+*RC AND3_0:C 8.257e-01
+*RC AND2_2:B 8.257e-01
+*RC AND2_1:B 8.257e-01
+*RC AND2_4:A 8.257e-01
+*RC AND2_6:A 8.257e-01
+*END
+
+*R_NET TESTLVIINMUXVIIR1 2.433e-01
+*DRIVER I_17:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_8:A 4.575e-03
+*END
+
+*R_NET CTST 1.565e+00
+*DRIVER NOR2_3:Z
+*CELL GTECH_AND2
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC I_96:A 1.893e-01
+*RC I_94:A 1.893e-01
+*RC I_90:A 1.893e-01
+*RC I_86:A 1.893e-01
+*RC I_20:A 1.893e-01
+*END
+
+*R_NET C2VIINHN 5.436e-01
+*DRIVER I_20:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_14:A 2.285e-02
+*RC OR2_12:A 2.285e-02
+*END
+
+*R_NET UC_8VZVOR1NF 2.433e-01
+*DRIVER OR2_4:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_21:A 4.575e-03
+*END
+
+*R_NET UC_8VZ 2.433e-01
+*DRIVER I_21:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_107:A 4.575e-03
+*END
+
+*R_NET C2_CO 2.362e+00
+*DRIVER NOR3_6:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.181e+00 1.827e-01 1.181e+00 
+*LOADS
+*RC NAND2_21:A 4.315e-01
+*RC OR2_16:A 4.315e-01
+*RC I_138:A 4.315e-01
+*RC I_135:A 4.315e-01
+*RC I_132:A 4.315e-01
+*RC I_129:A 4.315e-01
+*RC I_22:A 4.315e-01
+*END
+
+*R_NET CO2 1.203e+00
+*DRIVER I_22:Z
+*CELL GTECH_NOT
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_125:A 1.119e-01
+*RC I_123:A 1.119e-01
+*RC I_119:A 1.119e-01
+*RC I_115:A 1.119e-01
+*END
+
+*R_NET FMLVIINMUXVND1 2.433e-01
+*DRIVER I_42:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_23:A 4.575e-03
+*END
+
+*R_NET FMLVIINMUX 2.433e-01
+*DRIVER I_23:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC AND2_4:B 4.575e-03
+*END
+
+*R_NET TESTLVIINMUXVND1 2.433e-01
+*DRIVER I_44:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_24:A 4.575e-03
+*END
+
+*R_NET TESTLVIINMUX 2.433e-01
+*DRIVER I_24:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC AND2_6:B 4.575e-03
+*END
+
+*R_NET TCOMB_FE 5.436e-01
+*DRIVER I_45:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC AND2_3:A 2.285e-02
+*RC I_25:A 2.285e-02
+*END
+
+*R_NET II84 8.629e-01
+*DRIVER I_25:Z
+*CELL GTECH_NOT
+*C2_R1_C1 4.314e-01 6.672e-02 4.314e-01 
+*LOADS
+*RC AND2_8:A 5.757e-02
+*RC AND2_7:A 5.757e-02
+*RC I_27:A 5.757e-02
+*END
+
+*R_NET UC_16VZVOR1NF 2.433e-01
+*DRIVER OR2_9:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_26:A 4.575e-03
+*END
+
+*R_NET UC_16VZ 2.433e-01
+*DRIVER I_26:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_128:A 4.575e-03
+*END
+
+*R_NET C3_Q3VZVOR1NF 2.433e-01
+*DRIVER OR2_13:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_28:A 4.575e-03
+*END
+
+*R_NET C3_Q3VZ 2.433e-01
+*DRIVER I_28:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_144:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE6 2.433e-01
+*DRIVER I_30:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC AND2_0:A 4.575e-03
+*END
+
+*R_NET TCOMB_GA1VAD1NF 2.433e-01
+*DRIVER AND2_0:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_105:A 4.575e-03
+*END
+
+*R_NET TCOMB_GA2VAD4NF 2.433e-01
+*DRIVER AND2_1:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_98:A 4.575e-03
+*END
+
+*R_NET TCOMB_GA2VAD3NF 2.433e-01
+*DRIVER AND2_2:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_99:A 4.575e-03
+*END
+
+*R_NET TCOMB_GA2VAD2NF 2.433e-01
+*DRIVER AND3_0:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_100:A 4.575e-03
+*END
+
+*R_NET TCOMB_GA2VAD1NF 2.433e-01
+*DRIVER AND3_1:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_101:A 4.575e-03
+*END
+
+*R_NET R2CVAD1NF 2.433e-01
+*DRIVER AND2_3:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_142:A 4.575e-03
+*END
+
+*R_NET TCOMB_YA1 5.436e-01
+*DRIVER I_49:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC AND2_7:B 2.285e-02
+*RC AND2_5:A 2.285e-02
+*END
+
+*R_NET Y1CVAD1NF 2.433e-01
+*DRIVER AND2_5:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_140:A 4.575e-03
+*END
+
+*R_NET Y1CVAD2NF 2.433e-01
+*DRIVER AND2_7:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_139:A 4.575e-03
+*END
+
+*R_NET TCOMB_RA2 2.433e-01
+*DRIVER I_33:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC AND2_8:B 4.575e-03
+*END
+
+*R_NET R2CVAD2NF 2.433e-01
+*DRIVER AND2_8:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_141:A 4.575e-03
+*END
+
+*R_NET TCOMB_RA1VOR2NF 2.433e-01
+*DRIVER OR3_0:Z
+*CELL GTECH_OR3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND3_0:B 4.575e-03
+*END
+
+*R_NET TCOMBVNODE8VOR1NF 2.433e-01
+*DRIVER OR3_1:Z
+*CELL GTECH_OR3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND4_2:D 4.575e-03
+*END
+
+*R_NET TCOMB_RA1VOR1NF 2.433e-01
+*DRIVER OR4_0:Z
+*CELL GTECH_OR4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND3_0:C 4.575e-03
+*END
+
+*R_NET TCOMBVNODE8VOR2NF 2.433e-01
+*DRIVER OR2_0:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND4_2:C 4.575e-03
+*END
+
+*R_NET FMLVIINMUXVOR1NF 2.433e-01
+*DRIVER OR2_1:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_9:B 4.575e-03
+*END
+
+*R_NET TCOMB_RA2VOR3NF 2.433e-01
+*DRIVER OR2_2:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_3:A 4.575e-03
+*END
+
+*R_NET TCOMB_RA2VOR1NF 2.433e-01
+*DRIVER OR4_1:Z
+*CELL GTECH_OR4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_3:B 4.575e-03
+*END
+
+*R_NET TCOMBVNODE4VOR2NF 2.433e-01
+*DRIVER OR3_2:Z
+*CELL GTECH_OR3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_4:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE4VOR1NF 2.433e-01
+*DRIVER OR4_2:Z
+*CELL GTECH_OR4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_4:B 4.575e-03
+*END
+
+*R_NET TESTLVIINMUXVOR1NF 2.433e-01
+*DRIVER OR2_3:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_10:B 4.575e-03
+*END
+
+*R_NET TCOMBVNODE18 2.433e-01
+*DRIVER I_29:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR4_3:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE16VOR1NF 2.433e-01
+*DRIVER OR4_3:Z
+*CELL GTECH_OR4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_6:B 4.575e-03
+*END
+
+*R_NET C1VCO2 2.433e-01
+*DRIVER NOR3_3:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_4:A 4.575e-03
+*END
+
+*R_NET C1VCO1 5.436e-01
+*DRIVER NOR2_1:Z
+*CELL GTECH_AND2
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_1:A 2.285e-02
+*RC OR2_5:A 2.285e-02
+*END
+
+*R_NET UC_9VZVOR1NF 2.433e-01
+*DRIVER OR2_5:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_7:A 4.575e-03
+*END
+
+*R_NET UC_10VZVOR1NF 2.433e-01
+*DRIVER OR2_6:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_8:A 4.575e-03
+*END
+
+*R_NET FMLVIINMUXVOR2NF 2.433e-01
+*DRIVER OR2_7:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_9:A 4.575e-03
+*END
+
+*R_NET TESTLVIINMUXVOR2NF 2.433e-01
+*DRIVER OR2_8:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_10:A 4.575e-03
+*END
+
+*R_NET C2VCO2 2.433e-01
+*DRIVER NOR4_1:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_9:A 4.575e-03
+*END
+
+*R_NET C2VCO1 5.436e-01
+*DRIVER NOR3_5:Z
+*CELL GTECH_AND3
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_12:A 2.285e-02
+*RC OR2_10:A 2.285e-02
+*END
+
+*R_NET UC_17VZVOR1NF 2.433e-01
+*DRIVER OR2_10:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_16:A 4.575e-03
+*END
+
+*R_NET C2VCO0 5.436e-01
+*DRIVER NOR2_4:Z
+*CELL GTECH_AND2
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_13:A 2.285e-02
+*RC OR2_11:A 2.285e-02
+*END
+
+*R_NET UC_18VZVOR1NF 2.433e-01
+*DRIVER OR2_11:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_17:A 4.575e-03
+*END
+
+*R_NET UC_19VZVOR1NF 2.433e-01
+*DRIVER OR2_12:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_18:A 4.575e-03
+*END
+
+*R_NET C3VCO2 2.433e-01
+*DRIVER NOR4_3:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC OR2_13:A 4.575e-03
+*END
+
+*R_NET C3VCO1 5.436e-01
+*DRIVER NOR3_10:Z
+*CELL GTECH_AND3
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_19:A 2.285e-02
+*RC OR2_14:A 2.285e-02
+*END
+
+*R_NET C3_Q2VZVOR1NF 2.433e-01
+*DRIVER OR2_14:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_22:A 4.575e-03
+*END
+
+*R_NET C3VCO0 5.436e-01
+*DRIVER NOR2_7:Z
+*CELL GTECH_AND2
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_20:A 2.285e-02
+*RC OR2_15:A 2.285e-02
+*END
+
+*R_NET C3_Q1VZVOR1NF 2.433e-01
+*DRIVER OR2_15:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_23:A 4.575e-03
+*END
+
+*R_NET C3_Q0VZVOR1NF 2.433e-01
+*DRIVER OR2_16:Z
+*CELL GTECH_OR2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_24:A 4.575e-03
+*END
+
+*R_NET UC_9VUC_0 2.433e-01
+*DRIVER I_31:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_7:B 4.575e-03
+*END
+
+*R_NET UC_10VUC_0 2.433e-01
+*DRIVER I_32:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_8:B 4.575e-03
+*END
+
+*R_NET TCOMBVNODE4 2.433e-01
+*DRIVER I_34:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND3_1:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE15 2.433e-01
+*DRIVER NOR4_0:Z
+*CELL GTECH_AND4
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_5:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE14 2.433e-01
+*DRIVER I_35:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_11:B 4.575e-03
+*END
+
+*R_NET TCOMBVNODE12 2.433e-01
+*DRIVER I_36:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_102:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE8 2.433e-01
+*DRIVER I_37:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_104:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE19 2.433e-01
+*DRIVER NOR2_2:Z
+*CELL GTECH_AND2
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_6:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE16 5.436e-01
+*DRIVER I_39:Z
+*CELL GTECH_NOT
+*C2_R1_C1 2.718e-01 4.203e-02 2.718e-01 
+*LOADS
+*RC NAND2_15:A 2.285e-02
+*RC NAND2_11:A 2.285e-02
+*END
+
+*R_NET UC_9VZ 2.433e-01
+*DRIVER I_40:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_110:A 4.575e-03
+*END
+
+*R_NET UC_10VZ 2.433e-01
+*DRIVER I_41:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_113:A 4.575e-03
+*END
+
+*R_NET TCOMBVNODE3 2.433e-01
+*DRIVER I_43:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_15:B 4.575e-03
+*END
+
+*R_NET UC_17VUC_0 2.433e-01
+*DRIVER I_46:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_16:B 4.575e-03
+*END
+
+*R_NET UC_18VUC_0 2.433e-01
+*DRIVER I_47:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_17:B 4.575e-03
+*END
+
+*R_NET UC_19VUC_0 2.433e-01
+*DRIVER I_48:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_18:B 4.575e-03
+*END
+
+*R_NET UC_17VZ 2.433e-01
+*DRIVER I_50:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_131:A 4.575e-03
+*END
+
+*R_NET UC_18VZ 2.433e-01
+*DRIVER I_51:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_134:A 4.575e-03
+*END
+
+*R_NET UC_19VZ 2.433e-01
+*DRIVER I_52:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_137:A 4.575e-03
+*END
+
+*R_NET C3_Q2VUC_0 2.433e-01
+*DRIVER I_53:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_22:B 4.575e-03
+*END
+
+*R_NET C3_Q1VUC_0 2.433e-01
+*DRIVER I_54:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_23:B 4.575e-03
+*END
+
+*R_NET C3_Q0VUC_0 2.433e-01
+*DRIVER I_55:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC NAND2_24:B 4.575e-03
+*END
+
+*R_NET C3_Q2VZ 2.433e-01
+*DRIVER I_56:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_147:A 4.575e-03
+*END
+
+*R_NET C3_Q1VZ 2.433e-01
+*DRIVER I_57:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_150:A 4.575e-03
+*END
+
+*R_NET C3_Q0VZ 2.433e-01
+*DRIVER I_58:Z
+*CELL GTECH_NOT
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_153:A 4.575e-03
+*END
+
+*R_NET C3VCIIA 2.433e-01
+*DRIVER NOR3_0:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_122:A 4.575e-03
+*END
+
+*R_NET C1VCIIA 2.433e-01
+*DRIVER NOR3_1:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_68:A 4.575e-03
+*END
+
+*R_NET C2VCIIA 2.433e-01
+*DRIVER NOR3_2:Z
+*CELL GTECH_AND3
+*C2_R1_C1 1.216e-01 1.881e-02 1.216e-01 
+*LOADS
+*RC I_93:A 4.575e-03
+*END
+
+*R_NET C1_CO 1.565e+00
+*DRIVER NOR2_0:Z
+*CELL GTECH_AND2
+*C2_R1_C1 7.824e-01 1.210e-01 7.824e-01 
+*LOADS
+*RC I_114:A 1.893e-01
+*RC I_111:A 1.893e-01
+*RC I_108:A 1.893e-01
+*RC I_85:A 1.893e-01
+*RC I_81:A 1.893e-01
+*END
+
+*R_NET UC_27 1.203e+00
+*DRIVER NOR3_11:Z
+*CELL GTECH_AND3
+*C2_R1_C1 6.014e-01 9.300e-02 6.014e-01 
+*LOADS
+*RC I_154:A 1.119e-01
+*RC I_151:A 1.119e-01
+*RC I_148:A 1.119e-01
+*RC I_145:A 1.119e-01
+*END
+
+*R_NET DFF_0/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:clear 2.943e-01
+*DRIVER DFF_0/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_0/Q_reg:synch_toggle 2.943e-01
+*RC DFF_0/Q_reg:synch_preset 2.943e-01
+*RC DFF_0/Q_reg:synch_clear 2.943e-01
+*RC DFF_0/Q_reg:enable 2.943e-01
+*RC DFF_0/Q_reg:data_in 2.943e-01
+*RC DFF_0/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_0/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_0/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_0/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_1/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:clear 2.943e-01
+*DRIVER DFF_1/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_1/Q_reg:synch_toggle 2.943e-01
+*RC DFF_1/Q_reg:synch_preset 2.943e-01
+*RC DFF_1/Q_reg:synch_clear 2.943e-01
+*RC DFF_1/Q_reg:enable 2.943e-01
+*RC DFF_1/Q_reg:data_in 2.943e-01
+*RC DFF_1/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_1/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_1/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_1/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_2/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:clear 2.943e-01
+*DRIVER DFF_2/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_2/Q_reg:synch_toggle 2.943e-01
+*RC DFF_2/Q_reg:synch_preset 2.943e-01
+*RC DFF_2/Q_reg:synch_clear 2.943e-01
+*RC DFF_2/Q_reg:enable 2.943e-01
+*RC DFF_2/Q_reg:data_in 2.943e-01
+*RC DFF_2/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_2/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_2/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_2/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_3/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:clear 2.943e-01
+*DRIVER DFF_3/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_3/Q_reg:synch_toggle 2.943e-01
+*RC DFF_3/Q_reg:synch_preset 2.943e-01
+*RC DFF_3/Q_reg:synch_clear 2.943e-01
+*RC DFF_3/Q_reg:enable 2.943e-01
+*RC DFF_3/Q_reg:data_in 2.943e-01
+*RC DFF_3/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_3/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_3/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_3/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_4/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:clear 2.943e-01
+*DRIVER DFF_4/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_4/Q_reg:synch_toggle 2.943e-01
+*RC DFF_4/Q_reg:synch_preset 2.943e-01
+*RC DFF_4/Q_reg:synch_clear 2.943e-01
+*RC DFF_4/Q_reg:enable 2.943e-01
+*RC DFF_4/Q_reg:data_in 2.943e-01
+*RC DFF_4/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_4/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_4/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_4/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_5/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:clear 2.943e-01
+*DRIVER DFF_5/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_5/Q_reg:synch_toggle 2.943e-01
+*RC DFF_5/Q_reg:synch_preset 2.943e-01
+*RC DFF_5/Q_reg:synch_clear 2.943e-01
+*RC DFF_5/Q_reg:enable 2.943e-01
+*RC DFF_5/Q_reg:data_in 2.943e-01
+*RC DFF_5/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_5/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_5/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_5/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_6/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:clear 2.943e-01
+*DRIVER DFF_6/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_6/Q_reg:synch_toggle 2.943e-01
+*RC DFF_6/Q_reg:synch_preset 2.943e-01
+*RC DFF_6/Q_reg:synch_clear 2.943e-01
+*RC DFF_6/Q_reg:enable 2.943e-01
+*RC DFF_6/Q_reg:data_in 2.943e-01
+*RC DFF_6/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_6/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_6/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_6/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_7/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:clear 2.943e-01
+*DRIVER DFF_7/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_7/Q_reg:synch_toggle 2.943e-01
+*RC DFF_7/Q_reg:synch_preset 2.943e-01
+*RC DFF_7/Q_reg:synch_clear 2.943e-01
+*RC DFF_7/Q_reg:enable 2.943e-01
+*RC DFF_7/Q_reg:data_in 2.943e-01
+*RC DFF_7/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_7/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_7/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_7/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_8/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:clear 2.943e-01
+*DRIVER DFF_8/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_8/Q_reg:synch_toggle 2.943e-01
+*RC DFF_8/Q_reg:synch_preset 2.943e-01
+*RC DFF_8/Q_reg:synch_clear 2.943e-01
+*RC DFF_8/Q_reg:enable 2.943e-01
+*RC DFF_8/Q_reg:data_in 2.943e-01
+*RC DFF_8/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_8/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_8/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_8/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_9/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:clear 2.943e-01
+*DRIVER DFF_9/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_9/Q_reg:synch_toggle 2.943e-01
+*RC DFF_9/Q_reg:synch_preset 2.943e-01
+*RC DFF_9/Q_reg:synch_clear 2.943e-01
+*RC DFF_9/Q_reg:enable 2.943e-01
+*RC DFF_9/Q_reg:data_in 2.943e-01
+*RC DFF_9/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_9/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_9/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_9/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_10/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:clear 2.943e-01
+*DRIVER DFF_10/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_10/Q_reg:synch_toggle 2.943e-01
+*RC DFF_10/Q_reg:synch_preset 2.943e-01
+*RC DFF_10/Q_reg:synch_clear 2.943e-01
+*RC DFF_10/Q_reg:enable 2.943e-01
+*RC DFF_10/Q_reg:data_in 2.943e-01
+*RC DFF_10/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_10/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_10/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_10/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_11/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:clear 2.943e-01
+*DRIVER DFF_11/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_11/Q_reg:synch_toggle 2.943e-01
+*RC DFF_11/Q_reg:synch_preset 2.943e-01
+*RC DFF_11/Q_reg:synch_clear 2.943e-01
+*RC DFF_11/Q_reg:enable 2.943e-01
+*RC DFF_11/Q_reg:data_in 2.943e-01
+*RC DFF_11/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_11/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_11/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_11/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_12/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:clear 2.943e-01
+*DRIVER DFF_12/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_12/Q_reg:synch_toggle 2.943e-01
+*RC DFF_12/Q_reg:synch_preset 2.943e-01
+*RC DFF_12/Q_reg:synch_clear 2.943e-01
+*RC DFF_12/Q_reg:enable 2.943e-01
+*RC DFF_12/Q_reg:data_in 2.943e-01
+*RC DFF_12/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_12/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_12/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_12/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_13/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:clear 2.943e-01
+*DRIVER DFF_13/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_13/Q_reg:synch_toggle 2.943e-01
+*RC DFF_13/Q_reg:synch_preset 2.943e-01
+*RC DFF_13/Q_reg:synch_clear 2.943e-01
+*RC DFF_13/Q_reg:enable 2.943e-01
+*RC DFF_13/Q_reg:data_in 2.943e-01
+*RC DFF_13/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_13/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_13/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_13/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_14/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:clear 2.943e-01
+*DRIVER DFF_14/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_14/Q_reg:synch_toggle 2.943e-01
+*RC DFF_14/Q_reg:synch_preset 2.943e-01
+*RC DFF_14/Q_reg:synch_clear 2.943e-01
+*RC DFF_14/Q_reg:enable 2.943e-01
+*RC DFF_14/Q_reg:data_in 2.943e-01
+*RC DFF_14/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_14/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_14/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_14/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_15/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:clear 2.943e-01
+*DRIVER DFF_15/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_15/Q_reg:synch_toggle 2.943e-01
+*RC DFF_15/Q_reg:synch_preset 2.943e-01
+*RC DFF_15/Q_reg:synch_clear 2.943e-01
+*RC DFF_15/Q_reg:enable 2.943e-01
+*RC DFF_15/Q_reg:data_in 2.943e-01
+*RC DFF_15/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_15/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_15/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_15/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_16/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:clear 2.943e-01
+*DRIVER DFF_16/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_16/Q_reg:synch_toggle 2.943e-01
+*RC DFF_16/Q_reg:synch_preset 2.943e-01
+*RC DFF_16/Q_reg:synch_clear 2.943e-01
+*RC DFF_16/Q_reg:enable 2.943e-01
+*RC DFF_16/Q_reg:data_in 2.943e-01
+*RC DFF_16/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_16/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_16/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_16/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_17/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:clear 2.943e-01
+*DRIVER DFF_17/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_17/Q_reg:synch_toggle 2.943e-01
+*RC DFF_17/Q_reg:synch_preset 2.943e-01
+*RC DFF_17/Q_reg:synch_clear 2.943e-01
+*RC DFF_17/Q_reg:enable 2.943e-01
+*RC DFF_17/Q_reg:data_in 2.943e-01
+*RC DFF_17/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_17/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_17/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_17/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_18/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:clear 2.943e-01
+*DRIVER DFF_18/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_18/Q_reg:synch_toggle 2.943e-01
+*RC DFF_18/Q_reg:synch_preset 2.943e-01
+*RC DFF_18/Q_reg:synch_clear 2.943e-01
+*RC DFF_18/Q_reg:enable 2.943e-01
+*RC DFF_18/Q_reg:data_in 2.943e-01
+*RC DFF_18/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_18/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_18/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_18/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_19/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:clear 2.943e-01
+*DRIVER DFF_19/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_19/Q_reg:synch_toggle 2.943e-01
+*RC DFF_19/Q_reg:synch_preset 2.943e-01
+*RC DFF_19/Q_reg:synch_clear 2.943e-01
+*RC DFF_19/Q_reg:enable 2.943e-01
+*RC DFF_19/Q_reg:data_in 2.943e-01
+*RC DFF_19/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_19/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_19/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_19/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END
+
+*R_NET DFF_20/\*Logic0\* 1.951e+00
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:synch_toggle
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:synch_preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:synch_clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:data_in
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:preset
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:clear 2.943e-01
+*DRIVER DFF_20/Q_reg:clear
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 9.754e-01 1.508e-01 9.754e-01 
+*LOADS
+*RC DFF_20/Q_reg:synch_toggle 2.943e-01
+*RC DFF_20/Q_reg:synch_preset 2.943e-01
+*RC DFF_20/Q_reg:synch_clear 2.943e-01
+*RC DFF_20/Q_reg:enable 2.943e-01
+*RC DFF_20/Q_reg:data_in 2.943e-01
+*RC DFF_20/Q_reg:preset 2.943e-01
+*END
+
+*R_NET DFF_20/\*Logic1\* 0.000e+00
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*RC DFF_20/Q_reg:synch_enable 0.000e+00
+*DRIVER DFF_20/Q_reg:synch_enable
+*CELL \*\*SEQGEN\*\*
+*C2_R1_C1 0.000e+00 0.000e+00 0.000e+00 
+*LOADS
+*END

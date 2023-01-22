@@ -1,0 +1,102 @@
+****************************************
+Report : power
+        -net
+        -cell
+        -analysis_effort low
+        -sort_mode dynamic_power
+Design : s27
+Version: S-2021.06-SP5-3
+Date   : Fri Sep 23 00:08:08 2022
+****************************************
+
+
+Library(s) Used:
+
+    gtech (File: /usr/tools/synopsys/designcompiler_vS21-SP5.3/syn/S-2021.06-SP5-3/libraries/syn/gtech.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+s27                    ForQA             saed90nm_max
+dff                    ForQA             saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+G14                            0.544    0.500    0.1000      0.0133  d
+G12                            0.544    0.341    0.0691      0.0092  
+G11                            0.863    0.170    0.0435      0.0092  
+G10                            0.243    0.462    0.1056      0.0063  
+G16                            0.243    0.550    0.1013      0.0060  
+N1                             0.243    0.500    0.1000      0.0060  d
+N5                             0.243    0.500    0.1000      0.0060  d
+N7                             0.243    0.500    0.1000      0.0060  d
+G13                            0.243    0.351    0.0930      0.0055  
+G9                             0.243    0.760    0.0703      0.0042  
+N0                             0.243    0.240    0.0703      0.0042  
+N4                             0.243    0.240    0.0703      0.0042  
+N8                             0.243    0.659    0.0691      0.0041  
+G15                            0.243    0.389    0.0685      0.0041  
+G17                            0.243    0.830    0.0435      0.0026  
+N2                             0.243    0.830    0.0435      0.0026  
+G8                             0.544    0.094    0.0177      0.0024  
+N3                             0.243    0.538    0.0199      0.0012  
+G5                             0.243    0.461    0.0198      0.0012  
+N6                             0.243    0.651    0.0157      0.0009  
+G7                             0.243    0.348    0.0157      0.0009  
+G6                             0.243    0.169    0.0060      0.0004  
+--------------------------------------------------------------------------------
+Total (22 nets)                                            100.3516 nW
+
+
+  Attributes
+  ----------
+      h  -  Hierarchical cell
+
+                        Cell      Driven Net  Tot Dynamic      Cell
+                        Internal  Switching   Power            Leakage
+Cell                    Power     Power       (% Cell/Tot)     Power      Attrs
+--------------------------------------------------------------------------------
+I_0                        0.0000    0.0133   1.33e-02 (0%)       0.0000   
+NOR2_2                     0.0000 9.197e-03   9.20e-03 (0%)       0.0000   
+NOR2_1                     0.0000 9.187e-03   9.19e-03 (0%)       0.0000   
+NOR2_0                     0.0000 6.293e-03   6.29e-03 (0%)       0.0000   
+OR2_1                      0.0000 6.036e-03   6.04e-03 (0%)       0.0000   
+I_3                        0.0000 5.960e-03   5.96e-03 (0%)       0.0000   
+I_7                        0.0000 5.960e-03   5.96e-03 (0%)       0.0000   
+I_9                        0.0000 5.960e-03   5.96e-03 (0%)       0.0000   
+NOR2_3                     0.0000 5.540e-03   5.54e-03 (0%)       0.0000   
+I_2                        0.0000 4.189e-03   4.19e-03 (0%)       0.0000   
+I_6                        0.0000 4.189e-03   4.19e-03 (0%)       0.0000   
+NAND2_0                    0.0000 4.189e-03   4.19e-03 (0%)       0.0000   
+I_10                       0.0000 4.116e-03   4.12e-03 (0%)       0.0000   
+OR2_0                      0.0000 4.081e-03   4.08e-03 (0%)       0.0000   
+I_1                        0.0000 2.590e-03   2.59e-03 (0%)       0.0000   
+I_4                        0.0000 2.590e-03   2.59e-03 (0%)       0.0000   
+AND2_0                     0.0000 2.357e-03   2.36e-03 (0%)       0.0000   
+I_5                        0.0000 1.186e-03   1.19e-03 (0%)       0.0000   
+I_8                        0.0000 9.385e-04   9.38e-04 (0%)       0.0000   
+DFF_0                      0.0000       N/A        N/A (N/A)      0.0000  h
+DFF_1                      0.0000       N/A        N/A (N/A)      0.0000  h
+DFF_2                      0.0000       N/A        N/A (N/A)      0.0000  h
+--------------------------------------------------------------------------------
+Totals (22 cells)          0.000uW     N/A         N/A (N/A)      0.000pW

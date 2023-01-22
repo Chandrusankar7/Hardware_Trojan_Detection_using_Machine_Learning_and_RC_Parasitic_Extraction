@@ -1,0 +1,81 @@
+****************************************
+Report : power
+        -net
+        -cell
+        -analysis_effort low
+        -sort_mode dynamic_power
+Design : c17
+Version: S-2021.06-SP5-3
+Date   : Fri Sep 23 00:00:48 2022
+****************************************
+
+
+Library(s) Used:
+
+    gtech (File: /usr/tools/synopsys/designcompiler_vS21-SP5.3/syn/S-2021.06-SP5-3/libraries/syn/gtech.db)
+
+
+Operating Conditions: WORST   Library: saed90nm_max
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+c17                    ForQA             saed90nm_max
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+N16                            0.544    0.619    0.1230      0.0164  
+N11                            0.544    0.750    0.1001      0.0133  
+N12                            0.243    0.432    0.1447      0.0086  
+N23                            0.243    0.568    0.1447      0.0086  
+N9                             0.243    0.434    0.1432      0.0085  
+N22                            0.243    0.566    0.1432      0.0085  
+N5                             0.243    0.381    0.1230      0.0073  
+N8                             0.243    0.384    0.1230      0.0073  
+N19                            0.243    0.616    0.1230      0.0073  
+N4                             0.243    0.250    0.1001      0.0060  
+N0                             0.243    0.247    0.0974      0.0058  
+N10                            0.243    0.753    0.0974      0.0058  
+--------------------------------------------------------------------------------
+Total (12 nets)                                            103.5976 nW
+
+
+  Attributes
+  ----------
+      h  -  Hierarchical cell
+
+                        Cell      Driven Net  Tot Dynamic      Cell
+                        Internal  Switching   Power            Leakage
+Cell                    Power     Power       (% Cell/Tot)     Power      Attrs
+--------------------------------------------------------------------------------
+I_2                        0.0000    0.0164   1.64e-02 (0%)       0.0000   
+I_1                        0.0000    0.0133   1.33e-02 (0%)       0.0000   
+I_5                        0.0000 8.621e-03   8.62e-03 (0%)       0.0000   
+NAND2_6                    0.0000 8.621e-03   8.62e-03 (0%)       0.0000   
+I_4                        0.0000 8.532e-03   8.53e-03 (0%)       0.0000   
+NAND2_5                    0.0000 8.532e-03   8.53e-03 (0%)       0.0000   
+NAND2_3                    0.0000 7.333e-03   7.33e-03 (0%)       0.0000   
+I_3                        0.0000 7.330e-03   7.33e-03 (0%)       0.0000   
+NAND2_4                    0.0000 7.330e-03   7.33e-03 (0%)       0.0000   
+NAND2_2                    0.0000 5.967e-03   5.97e-03 (0%)       0.0000   
+I_0                        0.0000 5.805e-03   5.81e-03 (0%)       0.0000   
+NAND2_1                    0.0000 5.805e-03   5.81e-03 (0%)       0.0000   
+--------------------------------------------------------------------------------
+Totals (12 cells)          0.000uW 103.598nW   103.598nW (0%)     0.000pW
