@@ -1,1 +1,0 @@
-This Machine Learning code contains the entire process for detetcing the presence of HT, nets in which the HT is connected and the propoerties of the HT. This cide is executed with S420 ISCAS'89 Banchmark circuit's dataset, the datasets available in the respective directories can be used in the code for verification
