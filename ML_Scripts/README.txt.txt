@@ -1,0 +1,1 @@
+This directory contains the files for commands to extract RC parastic and power reports, Python codes for extracting CSV files from the generated reports and detecting hardware from the generated reports
